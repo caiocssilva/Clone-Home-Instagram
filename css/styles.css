@@ -212,7 +212,7 @@ footer #footer-links {
 }
 
 /* MOBILE */
-@media (max-width: 450px) {
+@media (max-width: 767px) {
     body {
         background-color: #fff;
     }
@@ -249,7 +249,7 @@ footer #footer-links {
 }
 
 /* TABLET */
-@media (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     body {
         background-color: #fff;
     }
@@ -260,7 +260,7 @@ footer #footer-links {
 
     #main-container,
     #form-box {
-        margin-top: 40px;
+        margin-top: 70px;
     }
 
     #form-container,
@@ -269,7 +269,6 @@ footer #footer-links {
     #get-app-container {
         width: 50%;
         display: inline-block;
-        
     }
 
     footer {
