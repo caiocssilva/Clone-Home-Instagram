@@ -242,3 +242,41 @@ footer #footer-links {
         margin-bottom: 10px;
     }
 }
+
+/* TABLET */
+@media (max-width: 800px) {
+    body {
+        background-color: #fff;
+    }
+
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        margin-top: 40px;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 50%;
+        display: inline-block;
+        
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer-links {
+        margin-bottom: 10px;
+    }
+}
